@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 // Create a react function based component
 const App = () => {
-	const buttonText = { text: "Click me!" };
+	const buttonText = "Click Me";
 	const style = { backgroundColor: "blue", color: "white" };
 	const enterName = "Enter name: ";
 
@@ -15,7 +15,7 @@ const App = () => {
 				{enterName}
 			</label>
 			<input id="name" type="text" />
-			<button style={style}>{buttonText.text}</button>
+			<button style={style}>{buttonText}</button>
 		</div>
 	);
 };
